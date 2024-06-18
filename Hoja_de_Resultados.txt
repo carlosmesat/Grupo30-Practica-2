@@ -45,9 +45,3 @@ Change to be commited:
 	(use "git rm --cached <file>..." to unstage)
 		new file: docs/README.md
 		new file: src/main.py
-10. Commit de la estructura:
-$ git commit -m "Add proyect structure"
-[master 2b3c4d5] Add proyect structure
-2 files changed, 2 inserctions(+)
-create mode 100644 docs/README.md
-create mode 100644 src/main.py
