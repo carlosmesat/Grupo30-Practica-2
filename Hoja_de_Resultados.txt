@@ -34,3 +34,6 @@ $ mkdir doc
 $ touch src/main.py
 
 & touch docs/README.md
+
+8.Añadir la estructura al indice:
+& git add .
