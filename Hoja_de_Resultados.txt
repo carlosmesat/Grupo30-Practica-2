@@ -37,11 +37,3 @@ $ touch src/main.py
 
 8.Añadir la estructura al indice:
 & git add .
-
-9. Verificar el repositorio:
-$ git status
-On branch manster
-Change to be commited:
-	(use "git rm --cached <file>..." to unstage)
-		new file: docs/README.md
-		new file: src/main.py
