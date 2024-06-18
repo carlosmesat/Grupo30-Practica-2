@@ -1,0 +1,10 @@
+# Ignorar archivos de respaldo generados por el sistema
+*~
+*.swp
+
+# Ignorar el directorio de dependencias
+/node_modules/
+
+# Ignorar archivos de configuración local
+.env
+config.js
