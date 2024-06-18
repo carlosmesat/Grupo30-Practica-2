@@ -1,0 +1,53 @@
+Hoja de Resultados - Práctica 2
+
+1. Crear el directorio de trabajo:
+$ mkdir Grupo30
+
+$ cd Grupo30
+
+2. Inicializar el repositorio:
+$ git init
+Inizializated empty Git repository  in /ruta/a/tu/directorio/Grupo30/.git/
+
+3. Crear un archivo README.md:
+$ echo "# Proyecto Grupo30" > READ.md
+
+4. Añadir todos los archivos al stage area:
+$ git add.
+
+5. Verificar el repositorio:
+$ git status
+On branch master
+No commits yet
+
+6. Primer commit:
+& git commit -m "initial commit"
+[master (root-commit) 1a2b3c4] Initial commit
+1 file changed, 1 intersecton(+)
+create mode 100644 README.md
+
+7. Crear las carpetas y archivos:
+$ mkdir src
+
+$ mkdir doc
+
+$ touch src/main.py
+
+& touch docs/README.md
+
+8.Añadir la estructura al indice:
+& git add .
+
+9. Verificar el repositorio:
+$ git status
+On branch manster
+Change to be commited:
+	(use "git rm --cached <file>..." to unstage)
+		new file: docs/README.md
+		new file: src/main.py
+10. Commit de la estructura:
+$ git commit -m "Add proyect structure"
+[master 2b3c4d5] Add proyect structure
+2 files changed, 2 inserctions(+)
+create mode 100644 docs/README.md
+create mode 100644 src/main.py
