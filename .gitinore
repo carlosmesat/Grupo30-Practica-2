@@ -8,3 +8,11 @@
 # Ignorar archivos de configuración local
 .env
 config.js
+# Archivos temporales
+*.tmp
+
+# Carpeta de dependencias
+/node_modules/
+
+# Archivos de log
+*.log
